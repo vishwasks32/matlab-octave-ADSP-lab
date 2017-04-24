@@ -39,7 +39,7 @@ xlabel('Samples');
 ylabel('Amplitude');
 title('MAGNITUDE');
 
-% Plot the input sequence
+% Plot the degree of output sequence
 subplot(3,1,3);
 stem(n,angle(Xk));
 xlabel('Samples');

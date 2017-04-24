@@ -5,7 +5,7 @@
 % Prepare by clearing the screen
 clc;clear all;close all;
 
-% inputs: output of system y[n], for input x[n], N the number of samples
+% inputs: x[n],h[n]
 xn = input('Enter the first sequence: '); % [1 1 0 1]
 hn = input('Enter the second sequence: '); % [1 2 3 0]
 

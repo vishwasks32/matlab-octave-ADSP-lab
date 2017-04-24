@@ -12,7 +12,7 @@ N = length(Xk);
 % Initialize output sequence with zeros
 xn = zeros(1,N);
 
-% Compute DFT{x[n]} using formula
+% Compute IDFT{x[n]} using formula
 for n = 0:N-1
 		for k = 0:N-1
 				xn(n+1) = xn(n+1) + Xk(k+1) * exp((j*2*pi*n*k)/N);
@@ -41,7 +41,7 @@ xlabel('Samples');
 ylabel('Amplitude');
 title('MAGNITUDE');
 
-% Plot the input sequence
+% Plot the phase of output sequence
 subplot(3,1,3);
 stem(n,angle(xn));
 xlabel('Samples');

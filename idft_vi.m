@@ -46,4 +46,4 @@ subplot(3,1,3);
 stem(n,angle(xn));
 xlabel('Samples');
 ylabel('Amplitude');
-title('PHASE IN DEGREES');
+title('PHASE IN RADIANS');

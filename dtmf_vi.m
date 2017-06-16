@@ -36,7 +36,7 @@ t = (0:N-1)/Fs;
      hfb = sin(freq_both(2)*2*pi*t);
      
      % Get their sum
-     tones = lfb+hfb;
+     tones = lfb+hfb
 
      % Plot tone
      subplot(4,3,btn);
